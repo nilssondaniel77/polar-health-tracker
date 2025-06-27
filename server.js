@@ -16,7 +16,7 @@ const POLAR_CONFIG = {
     clientId: 'd3281d51-278a-4da4-8db3-8f67f1ee13f3',
     clientSecret: 'b7e5057a-8e37-401c-842f-c39545cbb49a',
     redirectUri: process.env.NODE_ENV === 'production' 
-        ? 'https://your-app-name.onrender.com/auth/polar/callback'
+        ? 'https://polar-health-tracker.onrender.com/auth/polar/callback'
         : 'http://localhost:3000/auth/polar/callback',
     baseUrl: 'https://polarremote.com/v2',
     accessLinkUrl: 'https://www.polaraccesslink.com/v3'
